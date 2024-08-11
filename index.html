@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hair Salon</title>
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="reset.css" />
+    <!-- MAIN STYLING -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTAWESOME 6 ICONS -->
+    <script
+      src="https://kit.fontawesome.com/fe40695223.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"> <span>Hair</span> Salon </a>
+      </div>
+      <div class="header-nav">
+        <nav class="navigation">
+          <input type="checkbox" class="toggle-menu" />
+          <div class="hamburger"></div>
+
+          <ul class="menu">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Lookbook</a>
+            </li>
+            <li>
+              <a href="#">News</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-controls">
+          <button type="button" class="btn btn-header">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button type="button" class="btn btn-header btn-cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="badge-cart">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1 class="hero-title text-primary">
+            Always Make Room for a
+            <span class="text-dark">Little Beauty</span> in Your Life.
+          </h1>
+          <p class="hero-subtitle">Glamour and Care</p>
+          <p class="hero-desc text-dark">
+            Everyone is beautiful, we just make it obvious!
+          </p>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">
+              Book Appointment
+            </button>
+            <button type="button" class="btn btn-outline">Service Menu</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- <img src="/assets/hero-image2.png" alt="hero image" /> -->
+        </div>
+      </section>
+      <section class="services">
+        <div class="section-title">
+          <h2 class="text-dark">Services</h2>
+          <div class="separator text-dark"></div>
+        </div>
+        <div class="services-container">
+          <div class="service-item">
+            <img src="assets/scissors.svg" alt="services logo" />
+            <p class="service-title">Quality Services</p>
+            <p class="service-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores rem excepturi debitis quo veritatis natus amet
+              repellendus! Quasi, explicabo ea!
+            </p>
+          </div>
+          <div class="service-item">
+            <img src="assets/beautician.svg" alt="services logo" />
+            <p class="service-title">Expert Beautician</p>
+            <p class="service-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores rem excepturi debitis quo veritatis natus amet
+              repellendus! Quasi, explicabo ea!
+            </p>
+          </div>
+          <div class="service-item">
+            <img src="assets/product.svg" alt="services logo" />
+            <p class="service-title">Professional Products</p>
+            <p class="service-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores rem excepturi debitis quo veritatis natus amet
+              repellendus! Quasi, explicabo ea!
+            </p>
+          </div>
+        </div>
+        <div class="wave">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+      <section class="about text-light">
+        <div class="section-title">
+          <h2 class="">About</h2>
+          <div class="separator text-light"></div>
+        </div>
+        <div class="about-container">
+          <div class="about-text">
+            <h2 class="about-title">We tell amazing stories with hair</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+              iste minima blanditiis doloribus quisquam! Dolorem alias
+              exercitationem porro nesciunt perspiciatis!
+            </p>
+            <button type="button" class="about-btn | btn btn-light">
+              View More
+            </button>
+          </div>
+          <div class="about-image-container">
+            <img src="assets/about-image.jpg" alt="about image" />
+            <button type="button" class="about-play-btn">
+              <div class="btn btn-pulse">
+                <p class="text-dark">
+                  <i class="fa-solid fa-play"></i>
+                </p>
+                <span style="--pulse: 0"></span>
+                <span style="--pulse: 1"></span>
+                <span style="--pulse: 2"></span>
+                <span style="--pulse: 3"></span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="stylists">
+        <div class="wave">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="section-title">
+          <h2 class="">Our Stylists</h2>
+          <div class="separator text-dark"></div>
+        </div>
+        <div class="stylist-card">
+          <div class="stylist-profile">
+            <div class="stylist-image">
+              <img src="assets/stylist-1.jpg" alt="stylist image 1" />
+            </div>
+
+            <div class="stylist-details">
+              <h3 class="stylist-name">Sophie Collins</h3>
+              <span class="stylist-position">Manager / Hair stylist</span>
+              <p class="stylist-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                porro quo, officia quasi nam nobis saepe autem. Culpa
+                reprehenderit, dicta pariatur delectus officiis, debitis neque
+                odio quidem accusantium dolorem ipsum?
+              </p>
+              <button type="button" class="stylist-btn | btn btn-primary">
+                Book Appointment
+              </button>
+            </div>
+          </div>
+
+          <div class="stylist-profile">
+            <div class="stylist-image">
+              <img src="assets/stylist-2.jpg" alt="stylist image 2" />
+            </div>
+
+            <div class="stylist-details">
+              <h3 class="stylist-name">Mia Anderson</h3>
+              <span class="stylist-position">Hair stylist / colorist</span>
+              <p class="stylist-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                porro quo, officia quasi nam nobis saepe autem. Culpa
+                reprehenderit, dicta pariatur delectus officiis, debitis neque
+                odio quidem accusantium dolorem ipsum?
+              </p>
+              <button type="button" class="stylist-btn | btn btn-primary">
+                Book Appointment
+              </button>
+            </div>
+          </div>
+
+          <div class="stylist-profile">
+            <div class="stylist-image">
+              <img src="assets/stylist-3.jpg" alt="stylist image 3" />
+            </div>
+
+            <div class="stylist-details">
+              <h3 class="stylist-name">Ava Thompson</h3>
+              <span class="stylist-position">Hair stylist / colorist</span>
+              <p class="stylist-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                porro quo, officia quasi nam nobis saepe autem. Culpa
+                reprehenderit, dicta pariatur delectus officiis, debitis neque
+                odio quidem accusantium dolorem ipsum?
+              </p>
+              <button type="button" class="stylist-btn | btn btn-primary">
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer">
+        <div class="offer-image-container">
+          <div class="offer-image"></div>
+          <span class="offer-tag">Colour day offer!</span>
+          <p class="offer-desc">
+            <span>-10%</span> on haircut color and highlight
+          </p>
+          <button type="button" class="offer-btn | btn btn-primary">
+            Learn More
+          </button>
+        </div>
+      </section>
+
+      <section class="lookbook">
+        <div class="section-title">
+          <h2 class="text-dark">Our Lookbook</h2>
+          <div class="separator text-dark"></div>
+        </div>
+        <div class="lookbook-grid">
+          <img src="assets/lookbook-image1.jpg" alt="lookbook image 1" />
+          <img src="assets/lookbook-image2.jpg" alt="lookbook image 2" />
+          <img src="assets/lookbook-image3.jpg" alt="lookbook image 3" />
+          <img src="assets/lookbook-image4.jpg" alt="lookbook image 4" />
+          <img src="assets/lookbook-image5.jpg" alt="lookbook image 5" />
+          <img src="assets/lookbook-image6.jpg" alt="lookbook image 6" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-nav-wrapper">
+        <div class="footer-logo">
+          <div class="logo">
+            <a href="#"> <span>Hair</span> Salon </a>
+          </div>
+          <p class="footer-logo-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+            eaque!
+          </p>
+        </div>
+
+        <nav class="footer-nav">
+          <p class="footer-title">Explore</p>
+          <ul class="footer-links">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Promos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav">
+          <p class="footer-title">Company</p>
+          <ul class="footer-links">
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">News</a>
+            </li>
+            <li>
+              <a href="#">FAQs</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav">
+          <p class="footer-title">Follow us</p>
+          <ul class="footer-socials">
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-paper-plane"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-copyright">
+        <p>
+          © 2024 Hair Salon by
+          <a href="https://github.com/rfcho322">Desert Moon </a> - All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
